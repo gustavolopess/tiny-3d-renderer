@@ -1,0 +1,37 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  margin-top: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bolder;
+  padding: 15px;
+}
+
+
+.controls-input {
+  display: flex;
+  justify-content: space-between;
+  font-size: medium;
+  align-items: baseline;
+}
+
+.controls-input > span {
+  font-weight: bolder;
+  font-size: medium;
+  width: 80px;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-evenly;
+}
+
